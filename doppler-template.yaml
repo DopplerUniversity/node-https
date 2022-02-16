@@ -1,0 +1,14 @@
+projects:
+  - name: 'node-https'
+    description: ''
+    environments:
+      - name: 'Development'
+        slug: 'dev'
+        configs:
+          - slug: 'dev'      
+    secrets:
+      dev:
+        TLS_CERT: ''
+        TLS_KEY: ''
+        TLS_PORT: '8443'
+        HOSTNAME: 'localhost'
